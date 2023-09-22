@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/PhotographyPortfolio/app/precache-manifest.3fcef787f5a5579586d6f8686fac74a1.js"
+  "/PhotographyPortfolio/precache-manifest.559aac4e4e6a3848cf585eeae016c17f.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/PhotographyPortfolio/app/index.html", {
+workbox.routing.registerNavigationRoute("/PhotographyPortfolio/index.html", {
   
   blacklist: [/^\/_/,/\/[^/]+\.[^/]+$/],
 });
