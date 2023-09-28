@@ -6,9 +6,9 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src="gs://photosbyaline-portfolio.appspot.com/Scherm­afbeelding 2023-02-11 om 23.31.52.png" className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          testing
         </p>
         <a
           className="App-link"
