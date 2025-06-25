@@ -1,8 +1,6 @@
-import logo from './logo.svg';
 import './App.css';
-import React, { Component }  from 'react';
+import React from 'react';
 import { Routes, Route, useLocation } from "react-router-dom";
-import { AnimatePresence } from 'framer-motion';
 
 import NavBar from './Components/NavBar';
 import Home from './Components/Home';
