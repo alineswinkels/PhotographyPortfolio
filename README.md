@@ -6,3 +6,10 @@ cd app
 npm run deploy
 
 paar minuutjes wachten
+
+
+
+voor lokaal draaien
+
+cd app
+npm start
