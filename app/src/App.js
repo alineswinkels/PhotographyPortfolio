@@ -1,16 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
 import React, { Component }  from 'react';
+import { Routes, Route, useLocation } from "react-router-dom";
+import { AnimatePresence } from 'framer-motion';
+
+import NavBar from './Components/NavBar';
+import Home from './Components/Home';
+import About from './Components/About';
 
 function App() {
+  const location = useLocation();
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Portfolio
-        </p>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      {/* <AnimatePresence exitBeforeEnter> */}
+        <Routes location={location} key={location.pathname}>
+          <Route path="/" element={<Home />} />
+          <Route path="/about" element={<About />} />
+        </Routes>
+      {/* </AnimatePresence> */}
+    </>
   );
 }
 
