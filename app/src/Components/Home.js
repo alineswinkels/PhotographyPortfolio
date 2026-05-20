@@ -1,6 +1,7 @@
 import React from "react";
 // import transition from "../transition";
 import {motion} from "framer-motion";
+import foto from '../assets/DSCF5409.jpg';
 
 const Home = () => {
     return (
@@ -12,7 +13,14 @@ const Home = () => {
         transition={{ duration: 1 }}
         >
         <div className="page">
-            Home
+            <h1>About</h1>
+            <div className="image-wrapper">
+                <img
+                    src={foto}
+                    alt="Aline"
+                    className="main-image"
+                />
+            </div>
         </div>
         </motion.div>
     )
