@@ -20,6 +20,10 @@ const Home = () => {
                     alt="Aline"
                     className="main-image"
                 />
+                <p>Een analytische, mensgerichte maker die moeiteloos schakelt 
+                    tussen idee en uitvoering. Als generalist verbind ik 
+                    gebruikersinzichten, creatief denken en technische haalbaarheid 
+                    tot slimme, werkende oplossingen.</p>
             </div>
         </div>
         </motion.div>
