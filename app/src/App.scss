@@ -43,13 +43,33 @@
     text-align: center;
     margin-bottom: 0; 
   }
+  p {
+    width: 40%;
+    margin: 0 30%;
+    font-size: 0.5em;
+    line-height: 1.5;
+  }
 }
 
-.page p {
-  width: 40%;
-  margin: 0 30%;
-  font-size: 0.5em;
-  line-height: 1.5;
+.portfolio-grid {
+  display: flex;
+  flex-direction: column;
+
+  .portfolio-card {
+    height: 90vh;
+    display: flex;
+
+    h2 {
+      text-align: center;
+    }
+
+    .gallery { 
+      img {
+        width: 300px;
+      }
+    }
+    
+  }
 }
 
 .slide-in {
