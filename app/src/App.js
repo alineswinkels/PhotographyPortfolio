@@ -1,4 +1,4 @@
-import './App.css';
+import './App.scss';
 import React from 'react';
 import { Routes, Route, useLocation } from "react-router-dom";
 
