@@ -12,12 +12,12 @@ function App() {
 
   return (
     <>
-      <NavBar />
+      {/* <NavBar /> */}
       {/* <AnimatePresence exitBeforeEnter> */}
         <Routes location={location} key={location.pathname}>
           <Route path="/" element={<Home />} />
-          <Route path="/work" element={<Work />} />
-          <Route path="/contact" element={<Contact />} />
+          {/* <Route path="/work" element={<Work />} />
+          <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       {/* </AnimatePresence> */}
     </>

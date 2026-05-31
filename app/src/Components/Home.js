@@ -12,22 +12,27 @@ const Home = () => {
         exit={{ opacity: 0 }}
         transition={{ duration: 2 }}
         >
-        <div className="page">
-            <h1>About</h1>
-            <div className="image-wrapper">
-                <img
-                    src={foto}
-                    alt="Aline"
-                    className="main-image"
-                />
-                <p>Een analytische, mensgerichte maker die moeiteloos schakelt 
-                    tussen idee en uitvoering. Als generalist verbind ik 
-                    gebruikersinzichten, creatief denken en technische haalbaarheid 
-                    tot slimme, werkende oplossingen.</p>
-                    <p>Ik ben een generalist met een sterke interesse in mensen. Wat drijft ze? Waar lopen ze vast? En hoe kunnen we dat beter maken? Mijn kracht zit in het scherp krijgen van het echte probleem, het verbinden van perspectieven en het bedenken van ideeën die niet alleen creatief zijn, maar ook haalbaar.
-                                Ik werk graag samen, dicht op het proces, in een team waar ruimte is om te sparren, te testen en te bouwen. Op zoek naar iemand die meedenkt, doorvraagt en dingen werkend maakt? </p>
+            
+            <div className="page">
+                <div className="name first-name">
+                <h1>Aline</h1>
             </div>
-        </div>
+                {/* <h1>About</h1> */}
+                <div className="image-wrapper">
+                    <img
+                        src={"images/DSCF9121.jpg"}
+                        alt="Aline"
+                        className="main-image"
+                    />
+                    <div className="introduction-paragraph">
+                        <p><b>Senior UX Designer & Creative Technologist</b> with 7+ years of experience designing digital products, systems thinking and frontend implementation. Skilled in translating complex user, business and technical challenges into purposeful products. Experienced in working across design, strategy and engineering teams. Motivated by human-centered innovation. </p>
+                        <p>aline.swinkels@hotmail.com | <i>Eindhoven</i> | +31622462567</p>
+                    </div>
+                </div>
+                <div className="name last-name">
+                <h1>Swinkels</h1>
+            </div>
+            </div>
         </motion.div>
     )
 }
