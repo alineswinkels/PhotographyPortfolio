@@ -13,8 +13,10 @@ const Contact = () => {
                 // transition={{ duration: 1, ease: [0.22, 1, 0.36, 1]}}
         >
         <div className="page">
-            <h1>Contact</h1>
-            <p>aline.swinkels@hotmail.com</p>
+            <div className="portfolio-grid">
+                    <h3>Contact</h3>
+                    <p><a href="mailto:aline.swinkels@hotmail.com">aline.swinkels@hotmail.com</a> <br/> +31622462567</p>
+                </div>
         </div>
         </motion.div>
     )
