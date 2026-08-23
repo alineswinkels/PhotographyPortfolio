@@ -236,7 +236,7 @@ const Work = () => {
                         className="slider__button"
                         onClick={previous}
                         >
-                        ← Previous
+                        ← 
                         </button>
 
                         <span className="slider__counter">
@@ -247,7 +247,7 @@ const Work = () => {
                         className="slider__button"
                         onClick={next}
                         >
-                        Next →
+                         →
                         </button>
                     </div>
                 </div>

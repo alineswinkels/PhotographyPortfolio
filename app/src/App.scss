@@ -477,6 +477,12 @@ h3 {
 }
 
 @media (max-width: 768px) {
+
+  .slider .card-content {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
   .navigation {
     width: 90%;
     padding: 0 5%;
@@ -609,6 +615,15 @@ h3 {
   margin: 0 auto;
   margin-top: 2em;
   // touch-action: pan-x;
+
+  .slider__nav {
+    margin-top: 0.5em;
+    width: 100%;
+
+    button {
+      color: black;
+    }
+  }
 
   .project-wrapper {
     // overflow: hidden;
@@ -755,6 +770,8 @@ h3 {
     align-items: center;
     width: 40%;
     margin: 0 auto;
+    font-size: 3em;
+    font-weight: lighter;
 
     span {
       font-size: 0.5em;
