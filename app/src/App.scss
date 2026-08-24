@@ -820,9 +820,21 @@ h3 {
   //   padding: 0 !important;
   // }
 
+  .slider {
+    .card-categories {
+      display: none;
+    }
+    .slider__counter {
+      font-size: 0.2em;
+    }
+  }
   .slider__nav {
-      margin-top: 0.5em;
-      width: 100%;
+      margin-top: 0em;
+      width: 90%;
+      margin: 0 auto;
+      button {
+        color: black;
+      }
   }
 
   .navigation {
