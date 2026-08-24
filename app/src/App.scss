@@ -809,10 +809,10 @@ h3 {
 
 @media (max-width: 768px) {
 
-  .slider .card-content {
-    width: 100% !important;
-    padding: 0 !important;
-  }
+  // .slider .card-content {
+  //   width: 100% !important;
+  //   padding: 0 !important;
+  // }
 
   .slider__nav {
       margin-top: 0.5em;
@@ -836,7 +836,7 @@ h3 {
     .videos {
       margin-top: 0 !important;
     }
-  #home .portfolio-grid {
+  .portfolio-grid {
     width: 90%;
     margin: 0 5%;
 
