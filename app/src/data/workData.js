@@ -74,7 +74,7 @@ export const rawWorkData = [
       "images/Scherm­afbeelding 2026-04-21 om 13.11.33.png"
     ],
     videos: [
-      "videos/Screen Recording 2022-01-14 at 11.20.47.mov",
+      "videos/Screen Recording 2022-01-14 at 11.20.47.mov"
       // "videos/new proposal - extras menu behaviour.mov",
       // "videos/from proto - carousels behaviour.mov",
       // "videos/from proto - main menu.mov",

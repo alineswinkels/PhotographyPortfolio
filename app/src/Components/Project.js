@@ -6,7 +6,11 @@ import { useNavigate } from 'react-router-dom';
 
 function Project() {
     useEffect(() => {
+        // console.log('using effect to scroll to window top' + workData.find((item) => item.slug === slug).slug);
         window.scrollTo(0, 0);
+        setTimeout(() => {
+        window.scrollTo(0, 0);
+    }, 100);
     }, []);
 
     const location = useLocation();
