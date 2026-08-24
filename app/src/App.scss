@@ -528,10 +528,11 @@ h3 {
   }
 
   .card-content {
+    position: relative;
     display: flex;
     flex-direction: column;
     gap: 0;
-    width: 90%;
+    max-width: 90%;
     padding: 5%;
     cursor: pointer;
     opacity: 0.6;
