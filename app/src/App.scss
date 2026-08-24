@@ -78,7 +78,7 @@ h3 {
 }
 
 #work {
-  padding-top: 4em;
+  padding-top: 2em;
 }
 
 .page {
@@ -242,7 +242,7 @@ h3 {
   padding: 6em 0 0 0;
 
   #experience {
-    padding-top: 4em;
+    padding-top: 2em;
   }
   p {
     width: 40%;
@@ -288,6 +288,7 @@ h3 {
     position: relative;
     align-self: center;
     display: flex;
+    margin-top: 1em;
     margin-bottom: 3.5em;
 
     .job-container {
@@ -785,6 +786,10 @@ h3 {
 
   .timeline {
     width: 100% !important;
+    .job-container {
+      width: 90%;
+      margin: 0 auto;
+    }
   }
 
   #about p, #work p {
@@ -860,7 +865,7 @@ h3 {
     width: 90% !important;
 
     .job-container {
-      width: 100%;
+      width: 100% !important;
       padding: 0;
       flex-direction: column;
       gap: 0;
@@ -950,5 +955,9 @@ h3 {
       top: 1.5em;
     }
   }
+  }
+
+  #contact p {
+    font-size: 1em;
   }
 }
