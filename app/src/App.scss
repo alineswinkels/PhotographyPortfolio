@@ -30,6 +30,10 @@ html {
   justify-content:space-between;
   align-items: center;
 
+  #logo {
+    // font-size: 0.5em;
+  }
+
   a {
     color: black;
     text-transform: uppercase;
@@ -446,184 +450,13 @@ h3 {
   }
 }
 
-@media (max-width: 1700px) {
-  .clients {
-    width: 95% !important;
-    margin: 0 auto !important;
-  }
-
-  .timeline {
-    width: 100% !important;
-  }
-
-  #about p, #work p {
-    width: 50% !important;
-    margin: 0 auto !important;
-  }
-
-  #work .active h4 {
-    // width: 200%;
-    // margin-left: -50%;
-  }
-
-  .card-title {
-    width: 200%;
-    margin-left: -50%;
-  }
-
-  #project-details .gallery .images img {
-    height: 200px;
-  }
-}
-
-@media (max-width: 768px) {
-
-  .slider .card-content {
-    width: 100% !important;
-    padding: 0 !important;
-  }
-
-  .navigation {
-    width: 90%;
-    padding: 0 5%;
-    background-color: #ffe;
-  }
-
-    #about p, #work p, .project-description p {
-      width: 100% !important;
-    }
-
-    .project-description {
-      margin: 0.5em !important;
-    }
-
-    .videos {
-      margin-top: 0 !important;
-    }
-  .portfolio-grid {
-    width: 90%;
-    margin: 0 5%;
-
-    .portfolio-card {
-
-      .main-content {
-        display:block;
-
-          .main-image {
-            width: 100%;
-          }
-          .portfolio-content {
-            width: 100%;
-          }
-      }
-    }
-  }
-
-  #about .timeline {
-    margin-top: 2em;
-
-    .job-container {
-      flex-direction: column;
-      gap: 0;
-
-      .job {
-        &::after {
-          top: 8px;
-        }
-      }
-    }
-
-    .line {
-      width: 1px;
-      height: 100%;
-      left: 19%;
-    }
-  }
-
-  .clients {
-    margin-top: 3em !important;
-  }
-
-  .portfolio-grid .portfolio-card .gallery {
-    width: 100%;
-    display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
-    gap: 20px;
-    box-sizing: border-box;
-    justify-items: center;
-    
-    img {
-      width:70%;
-      padding:15%;
-      aspect-ratio: 1 / 1;
-      object-fit: cover;
-      display: block;
-    }
-  }
-
-  .image-wrapper {
-    display: block;
-    img {
-      width: 100%;
-      height: auto;
-      margin-bottom: 1em;
-    }
-    .introduction-paragraph {
-    width: 100%;
-    
-    p {
-      width: 100%;
-      margin: 0.5em 0;
-    }
-  }
-  }
-
-  #about {
-    // padding-top: 20em;
-    .photos {
-    width: 95%;
-  }
-  }
-
-  .page {
-    
-    .name {
-    position: absolute;
-    left: 0;
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-    
-    h1 {
-      font-size: 2em;
-      margin: 0;
-      text-transform: uppercase;
-    }
-    &.first-name {
-      top: 0;
-    }
-    &.last-name {
-      top: 1.5em;
-    }
-  }
-  }
-}
-
-
 .slider {
   width: 100%;
   margin: 0 auto;
   margin-top: 2em;
   // touch-action: pan-x;
 
-  .slider__nav {
-    margin-top: 0.5em;
-    width: 100%;
 
-    button {
-      color: black;
-    }
-  }
 
   .project-wrapper {
     // overflow: hidden;
@@ -941,5 +774,181 @@ h3 {
     .active {
       border: none;
     }
+  }
+}
+
+@media (max-width: 1700px) {
+  .clients {
+    width: 95% !important;
+    margin: 0 auto !important;
+  }
+
+  .timeline {
+    width: 100% !important;
+  }
+
+  #about p, #work p {
+    width: 50% !important;
+    margin: 0 auto !important;
+  }
+
+  #work .active h4 {
+    // width: 200%;
+    // margin-left: -50%;
+  }
+
+  .card-title {
+    width: 200%;
+    margin-left: -50%;
+  }
+
+  #project-details .gallery .images img {
+    height: 200px;
+  }
+}
+
+@media (max-width: 768px) {
+
+  .slider .card-content {
+    width: 100% !important;
+    padding: 0 !important;
+  }
+
+  .slider__nav {
+      margin-top: 0.5em;
+      width: 100%;
+  }
+
+  .navigation {
+    width: 90%;
+    padding: 0 5%;
+    background-color: #ffe;
+  }
+
+    #about p, #work p, .project-description p {
+      width: 100% !important;
+    }
+
+    .project-description {
+      margin: 0.5em !important;
+    }
+
+    .videos {
+      margin-top: 0 !important;
+    }
+  #home .portfolio-grid {
+    width: 90%;
+    margin: 0 5%;
+
+    .portfolio-card {
+
+      .main-content {
+        display:block;
+
+          .main-image {
+            width: 100%;
+          }
+          .portfolio-content {
+            width: 100%;
+          }
+      }
+    }
+  }
+
+  #about .timeline {
+    margin-top: 2em;
+    width: 90% !important;
+
+    .job-container {
+      width: 100%;
+      padding: 0;
+      flex-direction: column;
+      gap: 0;
+
+      .job {
+        padding: 1em 0;
+        &::before {
+          left: 0;
+        }
+        &::after {
+          top: 1.2em;
+          left: -7.5px;
+        }
+      }
+    }
+
+    .line {
+      width: 1px;
+      height: 100%;
+      left: 0;
+    }
+  }
+
+  .clients {
+    margin-top: 3em !important;
+  }
+
+  #home .portfolio-grid .portfolio-card .gallery {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    box-sizing: border-box;
+    justify-items: center;
+    
+    img {
+      width:70%;
+      padding:15%;
+      aspect-ratio: 1 / 1;
+      object-fit: cover;
+      display: block;
+    }
+  }
+
+  .image-wrapper {
+    display: block;
+    img {
+      width: 100%;
+      height: auto;
+      margin-bottom: 1em;
+    }
+    .introduction-paragraph {
+    width: 100%;
+    
+    p {
+      width: 100%;
+      margin: 0.5em 0;
+    }
+  }
+  }
+
+  #about {
+    // padding-top: 20em;
+    .photos {
+    width: 95%;
+  }
+  }
+
+  .page {
+    
+    .name {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    overflow: hidden;
+    
+    h1 {
+      font-size: 2em;
+      margin: 0;
+      text-transform: uppercase;
+    }
+    &.first-name {
+      top: 0;
+    }
+    &.last-name {
+      top: 1.5em;
+    }
+  }
   }
 }

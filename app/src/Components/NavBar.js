@@ -25,6 +25,7 @@ const NavBar = ({ activeSection }) => {
         <div className="navigation">
             <a
                     href="/"
+                    id="logo"
                 >
                     aline swinkels
                 </a>
