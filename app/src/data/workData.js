@@ -32,7 +32,7 @@ export const rawWorkData = [
       // "videos/PhilipsNero.mov"
     ],
     description:
-      "Designed the interaction and user experience for a Philips anti-snoring device, from physical interactions and iconography to the complete user flow. Built a high-fidelity digital twin to support usability testing and validate the product experience."
+      "Designed the interaction and user experience for a Philips anti-snoring device, from physical interactions and iconography to the user flow. Built a high-fidelity digital twin to support usability testing to validate the product experience."
   },
 
   // {
@@ -81,7 +81,7 @@ export const rawWorkData = [
       // "videos/oven running - background animation.mov"
     ],
     description:
-      "Developed an interactive prototype for a new ATAG kitchen appliance, combining physical controls with a touchscreen interface. The prototype brought the interaction concept to life and enabled the team to test the product experience."
+      "Developed an interactive prototype for a new ATAG kitchen appliance, combining physical controls with a touchscreen interface. The prototype brought the interaction concept to life and enabled the team to test the product experience. Based on the usertests we've made alterations on the design proposal."
   },
 
   {
@@ -179,7 +179,7 @@ export const rawWorkData = [
     ],
     videos: [],
     description:
-      "Created an interactive speculative design installation for VPRO, exploring the ethical implications of genetic manipulation. From concept and branding to interaction design and a complete exhibition experience, we turned a fictional future into something visitors could actively experience."
+      "Created an interactive speculative design installation for VPRO, exploring the ethical implications of genetic manipulation. From concept and branding to interaction design and a complete exhibition experience at the Dutch Technology Week, we turned a fictional future into something visitors could actively experience."
   },
 
   {
@@ -250,7 +250,7 @@ export const rawWorkData = [
       "videos/intercomscreenshotvid.mp4"
     ],
     description:
-      "Explored a new concept for a smart, connected intercom that combined physical interaction with a digital interface. The result was an interactive prototype that allowed visitors to intuitively navigate a building using just one physical control."
+      "Explored a new technical concept for a smart, connected intercom that combined physical interaction with a digital interface. The result was an interactive prototype that allowed visitors to intuitively navigate a building using just one physical control."
   },
 {
     slug: "photography",
@@ -272,7 +272,7 @@ export const rawWorkData = [
       
     ],
     description:
-      "Photography of clients and employees for business cards, social media and other business content."
+      "Portrait photography of clients and employees, used for business cards, social media and other business content."
   },
   // {
   //   slug: "project-management-tool",
@@ -311,7 +311,7 @@ export const rawWorkData = [
       "videos/IMG_0013.MOV"
     ],
     description:
-      "Worked on the development and prototyping of new child car seat concepts, exploring how sensors could improve safety and give parents more confidence. One concept detected whether a child was correctly secured in the seat."
+      "Worked on the development and prototyping of new child car seat concepts, exploring how sensors could improve safety. One concept detected whether a child was correctly secured in the seatbelt, combining multiple sensors throughout the seat."
   }
 ];
 

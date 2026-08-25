@@ -805,8 +805,10 @@ h3 {
   }
 
   .card-title {
-    width: 200%;
-    margin-left: -50%;
+    width: 100%;
+    margin-left: 0;
+    // width: 200%;
+    // margin-left: -50%;
   }
 
   #project-details .gallery .images img {
@@ -872,6 +874,13 @@ h3 {
           }
       }
     }
+  }
+
+  .card-title {
+    // width: 100%;
+    // margin-left: 0;
+    width: 200%;
+    margin-left: -50%;
   }
 
   #about .timeline {

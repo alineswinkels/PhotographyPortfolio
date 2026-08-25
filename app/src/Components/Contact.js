@@ -15,7 +15,7 @@ const Contact = () => {
         <div className="page">
             <div className="portfolio-grid">
                     <h3>Contact</h3>
-                    <p><a href="mailto:aline.swinkels@hotmail.com">aline.swinkels@hotmail.com</a> <br/> +31622462567</p>
+                    <p><a href="mailto:aline.swinkels@hotmail.com">aline.swinkels@hotmail.com</a></p>
                 </div>
         </div>
         </motion.div>
