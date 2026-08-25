@@ -75,6 +75,18 @@ function App() {
       <section>
       <div className="footer">
         <NavBar activeSection={activeSection} />
+        <div className="links">
+          <a href="linkedin.com">
+            <img
+            src={'images/a-black-linkedin-logo-free-png.png'}
+            />
+          </a>
+          <a href="mailto:aline.swinkels@hotmail.com">
+            <img
+            src={'images/542689.png'}
+            />
+          </a>
+        </div>
       </div>
                 {/* <Footer /> */}
               </section>
