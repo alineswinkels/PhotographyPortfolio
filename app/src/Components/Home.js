@@ -2,8 +2,21 @@ import React from "react";
 // import transition from "../transition";
 import {motion} from "framer-motion";
 import foto from '../assets/DSCF5409.jpg';
+import { useEffect, useState } from "react";
 
 const Home = () => {
+//     const [src, setSrc] = useState("images/portrait_flat_vector_animation_ready.svg");
+
+// useEffect(() => {
+//     const timer = setTimeout(() => {
+//         setSrc("images/DSCF9121.jpg");
+//     }, 4000);
+
+//     return () => clearTimeout(timer);
+// }, []);
+    
+        
+
     return (
         <motion.div 
         className="container text-center  bg-black"
@@ -29,7 +42,7 @@ const Home = () => {
                         <p><a href="mailto:aline.swinkels@hotmail.com">aline.swinkels@hotmail.com</a> | <i>Eindhoven</i> | +31622462567</p> */}
 
                         <p className="subtitle"><b>An analytic systems thinker and creative technologist driven to understand complexity, connect ideas and create meaningful change.</b></p>        
-                                <p>I'm endlessly curious about how things work—and why they don't. Whether designing digital experiences or exploring larger societal challenges, I'm motivated by understanding systems, questioning assumptions and creating solutions that have a lasting, positive impact.</p>
+                                <p>I'm endlessly curious about how things work and why they don't. Whether designing digital experiences or exploring larger societal challenges, I'm motivated by understanding systems, questioning assumptions and creating solutions that have a lasting, positive impact.</p>
                                 {/* <p>With a background in UX design, technology and innovation, I thrive at the intersection of design, engineering and strategy — helping teams understand complex systems and create solutions that are more thoughtful, sustainable and impactful.
                                 Driven by curiosity and a deep sense of responsibility towards people, society and the planet, I explore how technology can contribute to a more balanced future.</p> */}
                                 <p><a href="mailto:aline.swinkels@hotmail.com">aline.swinkels@hotmail.com</a> | <i>Eindhoven</i></p>

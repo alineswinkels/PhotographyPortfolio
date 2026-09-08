@@ -10,6 +10,10 @@ export const categories = [
   {
     id: 3,
     name: "Research"
+  },
+  {
+    id: 4,
+    name: "Strategy"
   }
 ];
 
@@ -93,7 +97,7 @@ export const rawWorkData = [
     images: [
       "images/tf.png",
       "images/tf-projects.png",
-      "images/tf-tray.png",
+      "images/tf-tray2.png",
       "images/treeview.png"
     ],
     videos: [],
@@ -151,7 +155,7 @@ export const rawWorkData = [
   },
 {
     slug: "canesten-app",
-    title: "Designing a digital self-test experience for Canesten",
+    title: "Developing a digital self-test experience for Canesten",
     company: "VanBerlo",
     location: "Eindhoven",
     categories: [2],
@@ -169,7 +173,7 @@ export const rawWorkData = [
     title: "What if you could design your future child?",
     company: "Fontys",
     location: "Eindhoven",
-    categories: [1, 2, 3],
+    categories: [1, 2, 3, 4],
     images: [
       "images/genetechs2.png",
       "images/genetechs.jpg",
@@ -223,7 +227,7 @@ export const rawWorkData = [
     title: "Designing a safer return to the office during COVID",
     company: "VanBerlo",
     location: "Eindhoven",
-    categories: [1, 2],
+    categories: [1, 2, 4],
     images: [
       "images/rto.png"
     ],
@@ -239,7 +243,7 @@ export const rawWorkData = [
     title: "Rethinking the intercom as a connected digital experience",
     company: "VanBerlo",
     location: "Eindhoven",
-    categories: [1, 2],
+    categories: [1, 2, 4],
     images: [
       "images/intercomphoto.png",
       "images/intercom-building.jpg",
@@ -293,7 +297,7 @@ export const rawWorkData = [
     title: "Exploring smarter ways to improve child car seat safety",
     company: "VanBerlo",
     location: "Eindhoven",
-    categories: [1, 2],
+    categories: [1, 2, 4],
     images: [
       "images/EHV10056-2.jpg",
       // "images/carseat-demo.png",

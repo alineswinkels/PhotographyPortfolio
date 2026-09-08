@@ -161,7 +161,7 @@ const Work = () => {
                     </p> */}
                     <p>
                         {/* I believe the world's biggest challenges can't be solved in isolation—they require us to understand the systems they're part of.  */}
-                        I believe meaningful change starts with understanding how systems work—and why they sometimes don't.
+                        I believe meaningful change starts with understanding how systems work and why they sometimes don't.
                         I love to work at the intersection of design, technology and systems thinking. I enjoy uncovering hidden patterns, connecting perspectives and translating complexity into meaningful products, experiences and ideas.
                     </p>
                     {/* <p>a selection of projects I've worked on</p> */}

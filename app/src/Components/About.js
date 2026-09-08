@@ -39,7 +39,7 @@ const About = () => {
                     <h3>About me</h3>
                     <p>Outside of work, you'll usually find me exploring outdoors somewhere. I love diving, snowboarding, playing sports, traveling and exploring new places—usually with a camera in my backpack.<br/><br/></p>
                     <p>I love learning new things and being creative—whether that's making music, crafting, building something, or occasionally convincing a friend to let me tattoo them.<br/><br/></p>
-                    <p>The ocean is my favorite place, and I care deeply about the natural world. I enjoy working with people just as much as I enjoy being out in nature, and I believe the best experiences—and the best ideas—come from feeling connected: to each other, to animals, and to the world around us.</p>
+                    <p>The ocean is my favorite place, and I care deeply about the natural world. I enjoy working with people just as much as I enjoy being out in nature, and I believe the best experiences and ideas come from feeling connected. Connected to each other, to animals, and to the world around us.</p>
                 </div>
 
                 <div className="portfolio-grid photos">
