@@ -37,8 +37,8 @@ const About = () => {
                 </div> */}
                 <div className="portfolio-grid">
                     <h3>About me</h3>
-                    <p>Outside of work, you'll usually find me exploring outdoors somewhere. I love diving, snowboarding, playing sports, traveling and exploring new places—usually with a camera in my backpack.<br/><br/></p>
-                    <p>I love learning new things and being creative—whether that's making music, crafting, building something, or occasionally convincing a friend to let me tattoo them.<br/><br/></p>
+                    <p>Outside of work, you'll usually find me exploring outdoors somewhere. I love diving, snowboarding, playing sports, traveling and exploring new places, usually with a camera in my backpack.<br/><br/></p>
+                    <p>I love learning new things and being creative, whether that's making music, crafting, building something, or occasionally convincing a friend to let me tattoo them.<br/><br/></p>
                     <p>The ocean is my favorite place, and I care deeply about the natural world. I enjoy working with people just as much as I enjoy being out in nature, and I believe the best experiences and ideas come from feeling connected. Connected to each other, to animals, and to the world around us.</p>
                 </div>
 
@@ -60,7 +60,8 @@ const About = () => {
 
                 <h3 id="experience">Experience</h3>
                 <div className="portfolio-grid">
-                    <p>With over seven years of experience spanning UX design, frontend development and innovation, I've worked across multidisciplinary teams to bring concepts to life. But what motivates me most is understanding how things work and how they can become more thoughtful, sustainable and impactful.</p>
+                    <p>With over seven years of experience spanning design, development and innovation, I've worked across multidisciplinary teams to bring concepts to life. But what motivates me most is understanding how things work and how they can become more thoughtful, sustainable and impactful.</p>
+                    {/* <p>Having a background in both technical implementation and in design helps me to bridge the gap between ideas and reality. I'm an analytic person that always sees possibility for improvement and innovation.</p> */}
                 </div>
                 <div className="timeline">
                     <div className="job-container">
@@ -86,7 +87,10 @@ const About = () => {
         Development of a functional mixed reality prototype using Microsoft’s HoloLens.</p> */}
                                     <ul>
                                         <li>Technical and user research</li>
-                                        <li>Prototyping (Unity, mixed reality)</li>
+                                        <li>Bachelor's thesis</li>
+                                        <li>Prototyping for Mixed Reality (Unity)</li>
+                                        <li>Microsoft's Hololens</li>
+                                        <li>Presentation support for TedX talk</li>
                                     </ul>
                             </div>
                         </div>
@@ -101,12 +105,13 @@ const About = () => {
         C ollaborated closely with softw are engineers to translate user needs and business
         requirements into technical solutions and frontend experiences.</p> */}
                                     <ul>
-                                        <li>UX Design</li>
+                                        <li>Consultancy</li>
+                                        <li>Strategy</li>
                                         <li>Research</li>
                                         <li>Concepting</li>
+                                        <li>UX Design</li>
                                         <li>Prototyping (software and hardware)</li>
                                         <li>Frontend development, React</li>
-                                        <li>Consultancy</li>
                                         <li>Photography & Video</li>
                                     </ul>
                             </div>
