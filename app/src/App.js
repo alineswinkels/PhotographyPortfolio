@@ -12,7 +12,6 @@ import Contact from './Components/Contact';
 import Footer from './Components/Footer';
 import Project from './Components/Project';
 
-
 function App() {
   const activeSection = useActiveSection();
   
@@ -74,19 +73,20 @@ function App() {
       </Routes>
       <section>
       <div className="footer">
-        <NavBar activeSection={activeSection} />
         <div className="links">
           <a href="linkedin.com">
             <img
             src={'images/a-black-linkedin-logo-free-png.png'}
             />
           </a>
-          <a href="mailto:aline.swinkels@hotmail.com">
+          {/* <a href="mailto:aline.swinkels@hotmail.com">
             <img
             src={'images/542689.png'}
             />
-          </a>
+          </a> */}
         </div>
+        <NavBar activeSection={activeSection} />
+        <span>© {new Date().getFullYear()} Aline Swinkels</span>
       </div>
                 {/* <Footer /> */}
               </section>

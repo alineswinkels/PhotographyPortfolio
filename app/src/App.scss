@@ -732,7 +732,7 @@ h3 {
 }
 
 #contact {
-  min-height: 50vh;
+  min-height: 30vh;
   display: flex;
   // align-items: center;
   padding: 2em 0 10em 0;
@@ -760,14 +760,16 @@ h3 {
 
 .footer {
   display: flex;
+  border-top-right-radius: 50px;
+  border-top-left-radius: 50px;
   flex-direction: column;
   align-items: center;
-  padding-bottom: 2em;
+  padding: 3em 0 0 0;
   // width: 60%;
   // margin: 0 auto;
   // display: flex;
   // padding: 2em 20%;
-  background-color: rgba(0,0,0,0.1);
+  background-color: rgba(103, 121, 125, 0.406);
   // color: black;
   // justify-content: space-between;
 
@@ -778,9 +780,13 @@ h3 {
   .navigation {
     position: relative;
     flex-direction: column;
-    padding: 2em 0;
+    padding: 2em 0 0 0;
     width: 100%;
     gap: 2em;
+
+    #logo {
+      display: none;
+    }
 
     .active {
       border: none;
@@ -794,6 +800,12 @@ h3 {
 
   img {
     width: 50px;
+  }
+
+  span {
+    color: rgb(49, 49, 49);
+    font-weight: 100;
+    padding-bottom: 2em;
   }
 }
 
