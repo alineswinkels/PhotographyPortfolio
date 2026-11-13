@@ -246,7 +246,7 @@ export const rawWorkData = [
     categories: [1, 2, 4],
     images: [
       "images/intercomphoto.png",
-      "images/intercom-building.jpg",
+      "images/intercom-building.JPG",
       "images/intercom.jpg",
       "images/intercom.png"
     ],
