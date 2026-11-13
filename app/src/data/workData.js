@@ -146,7 +146,7 @@ export const rawWorkData = [
     categories: [1],
     images: [
       "images/xyall.png",
-      "images/xyall2.png",
+      "images/xyall2.PNG",
       "images/xyall3.jpg"
     ],
     videos: [],

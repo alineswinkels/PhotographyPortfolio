@@ -74,7 +74,7 @@ function App() {
       <section>
       <div className="footer">
         <div className="links">
-          <a href="linkedin.com">
+          <a href="https://www.linkedin.com/in/aline-swinkels-56926486/" target="_blank">
             <img
             src={'images/a-black-linkedin-logo-free-png.png'}
             />
